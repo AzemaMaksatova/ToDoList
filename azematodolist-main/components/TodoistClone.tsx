@@ -45,6 +45,7 @@ export default function TodoistClone() {
     setTasks(
       tasks.map((task) =>
         task.id === id ? { ...task, isEditing: true } : task
+      
       )
     );
   };
